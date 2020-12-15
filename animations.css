@@ -1,0 +1,504 @@
+#building1
+{
+    transform: translateY(100%);
+    animation: building 0.5s ease forwards;
+    animation-delay: 0.3s;
+}
+#building2
+{
+    transform: translateY(100%);
+    animation: building 0.5s ease forwards;
+    animation-delay: 1.3s;
+    
+}
+#building3
+{
+    transform: translateY(100%);
+    animation: building 0.5s ease forwards;
+    animation-delay: 0.6s;
+}
+#building4
+{
+    transform: translateY(100%);
+    animation: building 0.5s ease forwards;
+    animation-delay: 1s;
+}
+#building5
+{
+    transform: translateY(100%);
+    animation: building 0.5s ease forwards;
+    animation-delay: 1.8s;
+}
+
+#plant1
+{
+    transform: translateY(100%);
+    animation: plant 0.5s ease forwards;
+    animation-delay: 2.5s;
+}
+#plant2
+{
+    transform: translateY(100%);
+    animation: plant 0.5s ease forwards;
+    animation-delay: 2.5s;
+}
+#plant3
+{
+    transform: translateY(100%);
+    animation: plant 0.5s ease forwards;
+    animation-delay: 2.5s;
+}
+#plant4
+{
+    transform: translateY(100%);
+    animation: plant 0.5s ease forwards;
+    animation-delay: 2.5s;
+}
+
+#leaf1
+{
+    animation: leaf 2s ease infinite alternate;
+    transform-box: fill-box;
+    transform-origin: bottom;
+}
+#leaf2
+{
+    animation: leaf 2s ease infinite alternate;
+    transform-box: fill-box;
+    transform-origin: bottom;
+    animation-delay: 0.3s;
+}
+#leaf3
+{
+    animation: leaf 2s ease infinite alternate;
+    transform-box: fill-box;
+    transform-origin: bottom;
+    animation-delay: 0.6s;
+}
+#leaf4
+{
+    animation: leaf 2s ease infinite alternate;
+    transform-box: fill-box;
+    transform-origin: bottom;
+    animation-delay: 0.7s;
+}
+
+#sun
+{
+    
+    animation: sun 3s ease;
+    
+}
+
+#clouds1
+{
+    animation: clouds1 9.8s infinite alternate linear;
+}
+#clouds2
+{
+    animation: clouds2 8.1s infinite alternate linear;
+}
+#clouds3
+{
+    animation: clouds3 8s infinite alternate linear;
+}
+#clouds4
+{
+    animation: clouds4 15.5s infinite alternate linear;
+}
+
+#wifi-router
+{
+    transform: translateY(100%);
+    animation: wifi 1s forwards;
+    animation-delay: 5s;
+}
+/* signal right */
+#Vector_176
+{
+    opacity: 0;
+    animation: signal 3s infinite;
+    animation-delay: 8s;
+}
+
+#Vector_177
+{
+    opacity: 0;
+    animation: signal 3s infinite;
+    animation-delay: 7s;
+}
+
+#Vector_178
+{
+    opacity: 0;
+    animation: signal 3s infinite alternate;
+    animation-delay: 6s;
+}
+/* signal left */
+#Vector_179
+{
+    opacity: 0;
+    animation: signal 4s infinite alternate;
+    animation-delay: 5.5s;
+}
+
+#Vector_180
+{
+    opacity: 0;
+    animation: signal 4s infinite alternate;
+    animation-delay: 6.5s;
+}
+
+#Vector_181
+{
+    opacity: 0;
+    animation: signal 4s infinite alternate;
+    animation-delay: 7.5s;
+}
+
+#bird1
+{
+    animation: bird1 10s infinite linear;
+    background: black;
+    color: black;
+}
+#bird2
+{
+    animation: bird2 50s infinite linear;
+}
+#bird3
+{
+    animation: bird1 15s infinite linear;
+}
+#bird4
+{
+    animation: bird1 10s infinite linear;
+}
+#bird5
+{
+    animation: bird2 30s infinite linear;
+}
+#bird6
+{
+    animation: bird2 15s infinite linear;
+}
+#bird7
+{
+    animation: bird1 35s infinite linear;
+}
+/* b1 wings */
+#Vector_162
+{
+    animation: flying 0.1s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Vector_166
+{
+    animation: flying 0.1s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Vector_164
+{
+    animation: flying 0.1s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Vector_160
+{
+    animation: flying 0.1s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Vector_158
+{
+    animation: flying 0.1s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Vector_156
+{
+    animation: flying 0.1s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Vector_154
+{
+    animation: flying 0.1s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#air-baloon
+{
+    transform: translate(70%, 44%);
+    animation: balloon 30s infinite linear;
+}
+
+#satellite1
+{
+    animation: satellite1 100s infinite alternate;
+    transform-origin: center;
+}
+
+#satellite2
+{
+    
+    animation: satellite2 150s infinite alternate;
+    transform-origin: center;
+}
+
+#space-ship
+{
+    animation: ship 500s infinite;
+}
+
+#smoke1
+{
+    transform: translateY(100%);
+    animation: smoke 2s forwards;
+    animation-delay: 3s;
+}
+
+#smoke2
+{
+    transform: translateY(100%);
+    animation: smoke 2s forwards;
+    animation-delay: 3s;
+}
+
+@keyframes smoke
+{
+    from
+    {
+        transform: translateY(100%);
+    }
+    to
+    {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes ship
+{
+    from 
+    {
+        transform: translateY(-30%);
+    }
+    to
+    {
+        transform: translateY(30%);
+    }
+}
+
+@keyframes satellite2
+{
+    from
+    {
+        transform: rotateZ(-8deg);
+    }
+    to
+    {
+        transform: rotateZ(17deg);
+    }
+}
+
+@keyframes satellite1
+{
+    from
+    {
+        transform: rotateZ(0deg);
+    }
+    to
+    {
+        transform: rotateZ(30deg);
+    }
+}
+
+@keyframes balloon
+{
+   0%{transform: translate(-4%, 55%);}
+   20%{transform: translate(7%, -11%)}
+   30%{transform: translate(23%, 1%);}
+   40%{transform: translate(34%, -1%);}
+   50%{transform: translate(36%, -12%);}
+   70%{transform: translate(48%, -13%);}
+   80%{transform: translate(54%, 0%);}
+   90%{transform: translate(61%, 0%);}
+   100%{transform: translate(66%, 55%);}
+   
+   
+}
+/* #smoke1
+{
+    
+    animation: smoke1 2s infinite linear;
+    transform:translateY(-10%);
+}
+
+@keyframes smoke1
+{
+    10% { opacity: 0.3; transform: translateY(-0%)}
+    20% { opacity: 0.6; transform: translateY(-2%)}
+    30% { opacity: 0.8; transform: translateY(-4%)}
+    40% { opacity: 1; transform: translateY(-6%)}
+    50% { opacity: 0.9; transform: translateY(-8%)}
+    60% { opacity: 0.8; transform: translateY(-10%)}
+    70% { opacity: 0.5; transform: translateY(-12%)}
+    80% { opacity: 0.4; transform: translateY(-14%)}
+    90% { opacity: 0.3; transform: translateY(-16%)}
+    100% { opacity: 0; transform: translateY(-18%)}
+} */
+@keyframes flying
+{
+    from 
+    {
+        transform: rotateZ(120deg);
+    }
+    to
+    {
+        transform: rotateZ(-40deg);
+    }
+}
+@keyframes bird2
+{
+    from 
+    {
+        transform: translateX(-100%);
+    }
+    to
+    {
+        transform: translateX(100%);
+    }
+}
+@keyframes bird1
+{
+    from 
+    {
+        transform: translateX(100%);
+    }
+    to
+    {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes signal
+{
+    from 
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+
+@keyframes wifi
+{
+    from 
+    {
+        transform: translateY(100%);
+    }
+    to
+    {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes clouds1
+{
+    from 
+    {
+        transform: translateX(-10%);
+    }
+    to
+    {
+        transform: translateX(5%);
+    }
+}
+@keyframes clouds2
+{
+    from 
+    {
+        transform: translateX(7%);
+    }
+    to
+    {
+        transform: translateX(2%);
+    }
+}
+@keyframes clouds3
+{
+    from 
+    {
+        transform: translateX(5%);
+    }
+    to
+    {
+        transform: translateX(10%);
+    }
+}
+@keyframes clouds4
+{
+    from 
+    {
+        transform: translateX(-15%);
+    }
+    to
+    {
+        transform: translateX(15%);
+    }
+}
+
+
+@keyframes sun
+{
+    from 
+    {
+        transform: rotateZ(50deg);
+    }
+    to
+    {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes plant
+{
+    from 
+    {
+        transform: translateY(100%);
+    }
+    to
+    {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes leaf
+{
+    from 
+    {
+        transform: rotateZ(10deg);
+    }
+    to
+    {
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes building
+{
+    from 
+    {
+        transform: translateY(100%);
+    }
+    to
+    {
+        transform: translateY(0%);
+    }
+}
